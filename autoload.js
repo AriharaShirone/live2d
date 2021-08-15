@@ -1,6 +1,6 @@
 // 注意：live2d_path 参数应使用绝对路径，记得修改哦
-const live2d_path = "https://你的域名/live2d/";
-const tips_path = "https://你的域名/live2d/";
+const live2d_path = "https://s-sh-2722-shirone.oss.dogecdn.com/live2d/";
+const tips_path = "https://s-sh-2722-shirone.oss.dogecdn.com/live2d/";
 //const live2d_path = "";
 //const live2d_path = "/live2d-widget/";
 
@@ -34,8 +34,8 @@ function loadExternalResource(url, type) {
 	]).then(() => {
 		initWidget({
 			waifuPath: tips_path + "waifu-tips.min.json",
-			apiPath: "https://你的域名/live2d_api/",
-			//cdnPath: "https://你的对象存储域名/live2d_api/"
+			//apiPath: "https://你的域名/live2d_api/",
+			cdnPath: "https://s-sh-2722-shirone.oss.dogecdn.com/live2d_api/"
 		});
 	});
 console.log(`
